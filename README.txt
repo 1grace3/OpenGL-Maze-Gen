@@ -1,4 +1,5 @@
-
+3D Maze Game built with Python, PyGame, and OpenGL.
+Procedurally generates a unique maze each run using Kruskal's algorithm. Features first-person mouse-look camera with WASD movement, wall collision, and head-bob animation. The maze is fully textured, with 3D collectible models loaded from .obj files and compiled into display lists for performance. Collectibles grant speed boosts, while water puddle traps trigger a slip effect with a GLSL ripple shader and particle splash. A hint system temporarily reveals a minimap, and a HUD tracks time, position, and best run.
 
 Controls:
 
